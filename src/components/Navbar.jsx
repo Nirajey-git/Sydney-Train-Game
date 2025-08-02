@@ -20,7 +20,9 @@ const Navbar = () =>{
             <li className="p-1 hover:text-sky-600  rounded-md transition-all cursor-pointer"><NavLink to="/aboutgame">About Game</NavLink></li>
         </ul>
     <div className='relative hidden md:flex items-center justify-center '>
+            <a href="http://buymeacoffee.com/nirajey" target='_blank' >
             <button className='rounded-full p-3 font-semibold bg-yellow-400 font-sans hover:bg-yellow-300 shadow-md'>Buy me a Tea </button>
+            </a>
     </div>
 
         <i className='bx bx-menu xl:hidden block text-5xl cursor-pointer' onClick={()=> setIsMenuOpen(!isMenuOpen)}></i>

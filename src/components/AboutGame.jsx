@@ -38,8 +38,8 @@ const AboutGame = () => {
     
 
     return (
-        <div className="w-full h-100vh mt-5 bg-white flex justify-center overflow-y-hidden">
-            <div className="w-[90%] m-auto max-w-[1200px] bg-white p-8 rounded-md shadow-lg">
+        <div className="w-full h-100vh mt-5 bg-white flex  flex-col justify-center overflow-y-hidden">
+            <div className="w-[90%] m-auto max-w-[1200px] bg-white p-8 rounded-lg shadow-lg">
                 <h2 className="text-2xl text-center mb-6 font-serif">Sydney Train Game</h2>
                 {makeTenFAQ.map((q) => (
                     <div key={q.id} className="mb-4 last:mb-0">
@@ -59,8 +59,10 @@ const AboutGame = () => {
                         )}
                         </div>
                 ))}
+                
 
             </div>
+       
         </div>
 
     )

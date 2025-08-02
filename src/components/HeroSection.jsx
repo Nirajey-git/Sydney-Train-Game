@@ -17,8 +17,8 @@ const HeroSection = () => {
                 <p className='text-base text-pretty text-center xl:text-md mt-3'>Calculate the 4 numbers in each train carriage using arithmetic operations to make 10.</p>
             </div>
             <div className='flex items-center justify-center gap-4'>
-            <button className=' p-3 mt-4 shadow-md rounded-xl bg-indigo-600 font-semibold text-white cursor-pointer hover:bg-indigo-700'><NavLink to="/calculate">Calculate →</NavLink></button>
-            <button className=' p-3 mt-4 shadow-md rounded-xl bg-white text-black font-sans cursor-pointer hover:bg-grey-300 focus:bg-indigo-500 focus:text-white'><NavLink to="/aboutgame">Learn More</NavLink></button>
+            <button className=' p-3 mt-4 shadow-md rounded-xl bg-indigo-600 font-semibold text-white cursor-pointer hover:bg-indigo-700 transition-all duration-300'><NavLink to="/calculate" className='group inline-flex items-center'>Calculate <span className='ml-1 transform transition-transform duration-300 group-hover:translate-x-1'>→</span></NavLink></button>
+            <button className=' p-3 mt-4 shadow-md rounded-xl bg-white text-black font-sans cursor-pointer hover:bg-grey-300 focus:bg-indigo-500 focus:text-white'><NavLink to="/aboutgame" className='group inline-flex items-center'>Learn More</NavLink></button>
             </div>
 
 
