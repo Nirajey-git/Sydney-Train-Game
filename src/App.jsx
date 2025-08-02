@@ -10,17 +10,14 @@ function App() {
 
   return (
     
-      <>
+    <>
       <Navbar/>
       <Routes>
-      <Route path="/home" element={<HeroSection />} />
-      * <Route path="/calculate" element={<Calculate />} />
-      <Route path="/aboutgame" element={<AboutGame />} /> 
+        <Route path="/" element={<HeroSection/>}/>
+        <Route path="/home" element={<HeroSection />} />
+        <Route path="/calculate" element={<Calculate />} />
+        <Route path="/aboutgame" element={<AboutGame />} /> 
       </Routes>
-      
-    
-      
-    
       
     </>
 
