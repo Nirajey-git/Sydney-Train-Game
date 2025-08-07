@@ -5,6 +5,9 @@ import { useState } from 'react';
 import {FaPlusCircle, FaMinusCircle} from 'react-icons/fa';
 import { NavLink } from 'react-router';
 
+import DP from '../assets/Nirajdp.jpg';
+
+
 const AboutGame = () => {
     const [activeQuestion, setActiveQuestion] = useState(null);
 
@@ -62,7 +65,12 @@ const AboutGame = () => {
                 
 
             </div>
-       
+            <div className="w-[90%] m-auto p-3 flex items-center justify-center gap-2 mt-14 rounded-lg">
+                <h3 className="font-serif text-md ">Created By Niraj Gajurel</h3>
+                <img src={DP} alt="Niraj logo" className="w-[40px] rounded-[50%]"/>
+            </div>
+            
+    
         </div>
 
     )
