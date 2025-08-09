@@ -75,7 +75,7 @@ const Calculate = () => {
     
         
         <div className='w-full my-6 flex flex-col justify-center items-center bg-white'>
-            <h1 className='group text-2xl font-serifs'>Enter the <strong className='text-indigo-500'>4 digit</strong> Number  </h1>
+            <h1 className='group text-2xl font-title'>Enter the <strong className='text-indigo-500 font-title'>4 digit</strong> Number  </h1>
             <input type="text" value={input} onChange={(e) => setInput(e.target.value.replace(/\D/g, '').slice(0, 4))}
         onKeyDown={handleKeyPress} placeholder="Enter the 4 digit number" className='border p-2 mt-5 border-pink-300 rounded-md w-64 flex justify-center items-center' />
 
