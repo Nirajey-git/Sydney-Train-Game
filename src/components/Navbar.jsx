@@ -10,7 +10,7 @@ const Navbar = () =>{
 
     return (
     <div className="w-full bg-stone-200">
-        <header className="flex justify-between items-center  text-black py-1 px-2 md:px-28 bg-white drop-shadow-md">
+        <header className="flex  justify-between items-center  text-black py-1 px-2 md:px-28 bg-white drop-shadow-md">
         <NavLink to="/home">
             <img src={logo} alt="Sydney-Train-Logo" className='w-[80px] hover:scale-56 transition-all'/>
         </NavLink>

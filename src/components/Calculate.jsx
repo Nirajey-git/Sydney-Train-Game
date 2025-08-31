@@ -79,6 +79,10 @@ const Calculate = () => {
             <input type="text" value={input} onChange={(e) => setInput(e.target.value.replace(/\D/g, '').slice(0, 4))}
         onKeyDown={handleKeyPress} placeholder="Enter the 4 digit number" className='border p-2 mt-5 border-pink-300 rounded-md w-64 flex justify-center items-center' />
 
+        <div>
+            <button onClick={() => setResult(findExpressionTo10(input))} className='mt-4 bg-indigo-500 text-white px-4 py-2 rounded hover:bg-indigo-600 transition lg:hidden'>Calculate</button>
+        </div>
+
         <div className="mt-6 text-xl h-[200px] font-mono">
             {result}
 
